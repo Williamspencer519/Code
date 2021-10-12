@@ -24,9 +24,11 @@ def test_cast_moonfire_with_a_d4_plus_attack_power():
 	assert average_damage > 4.2
 	assert average_damage < 4.88
 
-
-
-
 def test_i_can_make_a_warrior_class():
-	'''you need to implement a warrior class, thiso ne will fail by failing to even construct a warrior'''
+	'''you need to implement a warrior class, this one will fail by failing to even construct a warrior'''
 	zaquaeis = Warrior()
+
+
+def test_warrior_cleave_does_attack_power_plus_1d5():
+	'''this is asserting false and will never pass.  Change this test to be like the other one for moonfire, but code in a cleave attack for the warrior'''
+	assert False
