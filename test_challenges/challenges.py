@@ -5,7 +5,7 @@ def foobar(n):
 	# something simple and clean
 
 	# The goal is to return the string 'foo' if a number is divisible by 3, return the string 'bar'
-	# if thee number is divisible by 5, and return the string 'foobar' if thhe number is divisible by
+	# if the number is divisible by 5, and return the string 'foobar' if thhe number is divisible by
 	# both 3 AND 5, and return False otherwise
 	pass
 
