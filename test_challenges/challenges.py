@@ -1,5 +1,5 @@
 def foobar(n):
-	# this is perhaps the most commpn coding intervieew question still in use today. 
+	# this is perhaps the most common coding intervieew question still in use today. 
 	# people use it to just test if people are bullshitting about being able to code
 	# So don't over think it it's not supposed to be complicated, you just want to write
 	# something simple and clean
