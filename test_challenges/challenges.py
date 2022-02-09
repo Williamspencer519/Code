@@ -13,7 +13,7 @@ def foobar(n):
 def bridges(islands, bridges):
 	# this is an implementation of the Bridges of Konigsberg problem.  Don't be intimidated by this one
 	# if you don't just think of an answer, it's legitimately a hard problem, it's a problem
-	# Euler figured out over a few days, whhich would mean it would be pretty ridiculous to expect
+	# Euler figured out over a few days, which would mean it would be pretty ridiculous to expect
 	# a mortal to do it, except for the fact you get somethign Euler didn't have: A computer
 
 	# It goes like this.  There are 4 islands, and seven bridges, each bridge connecting some island to another
