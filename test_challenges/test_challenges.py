@@ -28,3 +28,16 @@ def test_bridges_that_work():
 	bridges = [ ('a','b'), ('b', 'c'), ('c','d'), ('d','a')]
 
 	assert bridges(islands, bridges)
+
+def test_polynomial_differentiation():
+	assert symbolic_polynomial_differentiation('x^2') == '2x'
+	assert symbolic_polynomial_differentiation('3x^2') == '6x'
+	assert symbolic_polynomial_differentiation('2') == '0'
+	assert symbolic_polynomial_differentiation('x^2 + 4') == '2x'
+	assert symbolic_polynomial_differentiation('x^3 + 4x - 5') == '3x^2 + 4'
+	assert symbolic_polynomial_differentiation('4x^3 - 4x - 5') == '12x^2 - 4'
+	assert symbolic_polynomial_differentiation('x^3 + 4x - 5x') == '3x^2 -1'
+
+
+
+

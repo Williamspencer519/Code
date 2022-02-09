@@ -23,3 +23,10 @@ def bridges(islands, bridges):
 	# just return true or false, about whether it can be done
 
 	pass
+
+
+def symbolic_polynomial_differentiation(p):
+	''' I don't know anyone who hasn't given this a shot at some point, but it's a lot harder than it looks.  Like the above
+		one just look to make progress, handle a few cases.  It's going to take a string and return a string
+	'''
+	pass
