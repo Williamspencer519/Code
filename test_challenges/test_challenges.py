@@ -20,3 +20,11 @@ def test_bridges():
 	# though don't read too much, because it contains the very clever answer!
 	assert not bridges(islands, bridges) #Spoiler, you can't!
 
+def test_bridges_that_work():
+	# this one is a set of bridges that definitely do have a solution, it'll basically just be to walk in a circle
+
+
+	islands = ['a', 'b', 'c', 'd']
+	bridges = [ ('a','b'), ('b', 'c'), ('c','d'), ('d','a')]
+
+	assert bridges(islands, bridges)
