@@ -11,7 +11,7 @@ def test_taking_damage_works_by_subtracting_defence_from_damage_then_applying_to
 def test_a_druid_can_turn_into_a_cat():
 	druid = Druid()
 	druid.transfrom("Cat")
-	assert dreuid.form == "Cat"
+	assert druid.form == "Cat"
 
 def test_cast_moonfire_with_a_d4_plus_attack_power():
 	'''this test is gonna cast moonfire a ton of times and make sure the damage falls in the expected range of attack_power + 1d4'''
